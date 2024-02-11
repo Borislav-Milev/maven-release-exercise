@@ -3,7 +3,7 @@
 
   <groupId>guru.springframework</groupId>
   <artifactId>mb2g-release-plugin</artifactId>
-  <version>1.0</version>
+  <version>1.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>mb2g-release-plugin</name>
@@ -19,7 +19,7 @@
   </properties>
 
   <scm>
-    <developerConnection>scm:git:https://github.com/Borislav-Milev/maven-release-exercise.git</developerConnection>
+    <developerConnection>scm:git:https://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@github.com/Borislav-Milev/maven-release-exercise.git</developerConnection>
     <url>https://github.com/Borislav-Milev/maven-release-exercise.git</url>
     <tag>mb2g-release-plugin-1.0</tag>
   </scm>
