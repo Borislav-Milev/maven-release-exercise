@@ -63,7 +63,7 @@
 
   <distributionManagement>
     <repository>
-      <id>packagecloud.random</id>
+      <id>packagecloud.release</id>
       <url>packagecloud+${PACKAGECLOUD_URL}release</url>
     </repository>
     <snapshotRepository>
