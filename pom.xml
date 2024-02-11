@@ -21,7 +21,6 @@
   <scm>
     <developerConnection>scm:git:${GITHUB_LINK}</developerConnection>
     <url>${GITHUB_URL}</url>
-    <tag>mb2g-release-plugin-1.0</tag>
   </scm>
 
   <dependencies>
