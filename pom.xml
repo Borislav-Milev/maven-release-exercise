@@ -19,9 +19,8 @@
   </properties>
 
   <scm>
-    <developerConnection>scm:git:https://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@github.com/Borislav-Milev/maven-release-exercise.git</developerConnection>
+    <developerConnection>scm:git:{GITHUB_LINK}</developerConnection>
     <url>https://github.com/Borislav-Milev/maven-release-exercise.git</url>
-    <tag>mb2g-release-plugin-1.0</tag>
   </scm>
 
   <dependencies>
