@@ -27,8 +27,8 @@
           <option name="delegateBuildToMaven" value="false" />
           <option name="environmentProperties">
             <map>
-              <entry key="GITHUB_LINK" value="&quot;https://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@github.com/Borislav-Milev/maven-release-exercise.git&quot;" />
-              <entry key="GITHUB_URL" value="&quot;https://github.com/Borislav-Milev/maven-release-exercise.git&quot;" />
+              <entry key="GITHUB_LINK" value="https://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@github.com/Borislav-Milev/maven-release-exercise.git" />
+              <entry key="GITHUB_URL" value="https://github.com/Borislav-Milev/maven-release-exercise.git" />
             </map>
           </option>
           <option name="jreName" value="openjdk-21" />
