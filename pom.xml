@@ -19,7 +19,7 @@
   </properties>
 
   <scm>
-    <developerConnection>scm:git:https://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@github.com/Borislav-Milev/maven-release-exercise.git</developerConnection>
+    <developerConnection>scm:git:${GITHUB_LINK}</developerConnection>
     <url>${GITHUB_URL}</url>
     <tag>mb2g-release-plugin-1.0</tag>
   </scm>
@@ -64,11 +64,11 @@
   <distributionManagement>
     <repository>
       <id>packagecloud.release</id>
-      <url>packagecloud+{PACKAGECLOUD_URL}release</url>
+      <url>packagecloud+${PACKAGECLOUD_URL}release</url>
     </repository>
     <snapshotRepository>
       <id>packagecloud.snapshot</id>
-      <url>packagecloud+{PACKAGECLOUD_URL}snapshot</url>
+      <url>packagecloud+${PACKAGECLOUD_URL}snapshot</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
