@@ -61,7 +61,7 @@
     </plugins>
   </build>
 
-  <distributionManagement>
+<!--  <distributionManagement>
     <repository>
       <id>packagecloud.release</id>
       <url>packagecloud+${PACKAGECLOUD_URL}release</url>
@@ -70,5 +70,15 @@
       <id>packagecloud.snapshot</id>
       <url>packagecloud+${PACKAGECLOUD_URL}snapshot</url>
     </snapshotRepository>
+  </distributionManagement>-->
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshot</id>
+      <url>http://localhost:8081/repository/nexus-snapshot/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-release</id>
+      <url>http://localhost:8081/repository/nexus-release/</url>
+    </repository>
   </distributionManagement>
 </project>
