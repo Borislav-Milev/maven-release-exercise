@@ -51,7 +51,7 @@
           <option name="goals">
             <list>
               <option value="clean" />
-              <option value="release:perform" />
+              <option value="release:rollback" />
               <option value="-Dsettings.security=%USERPROFILE%\.m2\wrapper\dists\apache-maven-3.9.5-bin\2adeog8mj13csp1uusqnc1f2mo\apache-maven-3.9.5\conf\settings-security.xml" />
             </list>
           </option>
